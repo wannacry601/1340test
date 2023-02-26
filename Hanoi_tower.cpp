@@ -15,6 +15,8 @@ void move(int n,char src,char des,char tmp)
 
 int main()
 {
-    move(4,'A','B','C');
+    int x;
+    cin >> x;
+    move(x,'A','C','B');
     return 0;
 }
